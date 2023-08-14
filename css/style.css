@@ -1,0 +1,125 @@
+header .logo{
+    text-align: center;
+    background-image: url(../img/cloud.jpg);
+}
+
+h1{
+    background-color: #C4C4C4;
+    color: #005677;
+    font-family: 'Times New Roman';
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 0.5em;
+    width: auto;
+    height: 60px;
+    align-items: center;
+    justify-content:center;
+    display: flex;
+}
+
+.salto{
+    background: rgba(0, 125, 0, 0.7);
+    width: 100%;
+    position:relative;
+    z-index: 100;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+nav{
+    float:left;
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden; 
+}
+
+nav ul li{
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;;
+    font-size: 20px;
+}
+
+nav ul li a {
+    display: block; 
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+nav ul li:hover {
+    background: #eca023;
+}
+
+.noicon_list{
+    list-style-type:none;
+    padding: 15px
+}
+
+.timeline-item{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.timeline-year{
+    font-size: 15px;
+    flex: 0 0 115px;
+    font-weight: 700;
+}
+.timeline-description{
+    font-size: 15px;
+    flex: 1;
+}
+span{
+    font-weight: bold;
+    text-indent: 0
+}
+
+h2{
+    padding: 10px;
+    height: 30px;
+    font-size: 20px;
+    background-color: #C4C4C4;
+    font-family: 'Times New Roman';
+    color: #005677;
+    font-weight: 700;
+    letter-spacing: 0.5em;
+    align-items: center;
+}
+
+footer .letra_batman{    
+    color: #FFFFFF; 
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    display: flex;
+}
+footer{
+    background-color: grey;
+    height: 37px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+}
+
+.cursiva{
+    font-style: italic;
+}
+
+.github{  
+    height: 32px;
+    line-height: 0;
+    justify-content: center;
+    display: flex;
+} 
+
+p{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
